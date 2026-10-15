@@ -4,7 +4,6 @@ import SectionHeader from "../../components/ui/SectionHeader/SectionHeader";
 
 function ProductDetail() {
   const { slug } = useParams();
-
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
