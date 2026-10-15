@@ -1,8 +1,6 @@
 import "./Products.scss";
 import { useEffect, useState } from "react";
 import ProductCard from "../../components/ui/products/ProductCard/ProductCard";
-import Breadcrumbs from "../../components/ui/BreadCrumbs/BreadCrumbs";
-import SectionHeader from "../../components/ui/SectionHeader/SectionHeader";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
