@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-heading: 'Fraunces', Georgia, serif;
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  --color-canvas: #FAFAF8;
+  --color-ink: #16160E;
+  --color-warm: #F2EDE6;
+  --color-rule: #E2DAD0;
+  --color-dim: #736b5d;
+  --color-forest: #1C3128;
+  --color-forest-deep: #142218;
+  --color-brass: #B8946B;
+  --color-brass-light: #D4B48A;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  color: #716b65;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #E2DAD0 transparent;
+}
+
+body {
+  background-color: #fafaf8f2;
+  color: #16160E;
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  color: #171717;
+}
+label {
+  color: #171717;
+}
+
+a {
+  color: #16160E;
+}
+
+.top-text {
+  color: var(--color-brass);
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 24px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-enter {
+  animation: fadeUp 0.32s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.sr-only {
+  position: absolute;
+  left: -2000px;
+  top: -2000px;
+}
+
+.text-xs {
+  font-size: 12px;
+}
+
+.primary-button {
+    width: 100%;
+    height: 36px!important;
+    background-color: #1C3128;
+    color: #FFF;
+    padding: 10px 17px;
+    border: 1px solid #222222;
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.secondary-button {
+    width: max-content;
+    background-color: transparent;
+    color: #1C3128;
+    padding: 14px 28px;
+    border: 1px solid #e2dad0;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.primary-button:hover {  
+  background-color: #000;
+}
+.secondary-button:hover {
+  color: #000;
+}
+
+.tertiary-button {
+  font-family: var(--font-sans);
+  background-color: transparent;
+  color: #8A8378;
+  padding: 10px 17px;
+  letter-spacing: 1.2px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+

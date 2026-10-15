@@ -1,0 +1,29 @@
+.assistant {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+
+  .assistant-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .assistant-name {
+      font-size: 1rem;
+      font-weight: bold;
+      margin: 0 !important;
+    }
+    span {
+        font-size: .875rem;
+    }
+  }
+  img {
+    width: 40px;
+    border-radius: 100%;
+    margin-bottom: 0;
+    filter: grayscale(100);
+  }
+}

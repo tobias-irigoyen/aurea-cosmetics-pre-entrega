@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "slug": "serum-luminoso-c",
+    "name": "Sérum Luminoso C+",
+    "category": "Tratamiento",
+    "description": "Sérum con vitamina C al 15% para un brillo uniforme y homogéneo.",
+    "price": 15000,
+    "stock": 89,
+    "badge": null,
+    "image": "https://acdn-us.mitiendanube.com/stores/001/162/290/products/tierramia-052399-d506236e7630b14c2d17781876534968-1024-1024.webp"
+  },
+  {
+    "id": 2,
+    "slug": "crema-hidratante-profunda",
+    "name": "Crema Hidratante Profunda",
+    "category": "Hidratación",
+    "description": "Hidratación intensa con ceramidas y manteca de karité durante 72 horas.",
+    "price": 10000,
+    "stock": 74,
+    "badge": null,
+    "image": "https://thumbs.dreamstime.com/b/ca%C3%B1%C3%B3n-de-lujo-para-el-cuidado-la-piel-en-pedestal-m%C3%A1rmol-un-lujoso-frasco-crema-cosm%C3%A9tica-blanca-con-una-lujosa-tapa-dorada-y-409347667.jpg?w=768"
+  },
+  {
+    "id": 3,
+    "slug": "aceite-facial-regenerador",
+    "name": "Aceite Facial Regenerador",
+    "category": "Tratamiento",
+    "description": "Aceite seco con rosa de mosqueta y escualano para la renovación celular.",
+    "price": 8500,
+    "stock": 95,
+    "badge": "Nuevo",
+    "image": "https://img.magnific.com/fotos-premium/gotero-vidrio-botella-mockup-tratamiento-heces-spa-productos-belleza-natural-suero-belleza-cuidado-piel-botella-blanco-fondo-gris-hojas-tropicales-verdes_105596-4797.jpg"
+  },
+  {
+    "id": 4,
+    "slug": "tonico-revitalizante",
+    "name": "Tónico Revitalizante",
+    "category": "Tratamiento",
+    "description": "Tónico botánico que equilibra el pH y prepara la piel para los activos.",
+    "price": 12000,
+    "stock": 58,
+    "badge": null,
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_744635-MLA114372008943_072026-F.webp"
+  },
+  {
+    "id": 5,
+    "slug": "mascarilla-purificante",
+    "name": "Mascarilla Purificante",
+    "category": "Limpieza",
+    "description": "Mascarilla de arcilla con carbón activado y lavanda. Poros minimizados.",
+    "price": 4500,
+    "stock": 65,
+    "badge": null,
+    "image": "https://images.unsplash.com/photo-1743927773510-cc1ad4f46217?q=80&w=784&auto=format"
+  },
+  {
+    "id": 6,
+    "slug": "esencia-nocturna",
+    "name": "Esencia Nocturna",
+    "category": "Esencias",
+    "description": "Elixir nocturno con bakuchiol y péptidos de seda para la regeneración celular.",
+    "price": 7500,
+    "stock": 110,
+    "badge": "Premium",
+    "image": "https://images.unsplash.com/photo-1608571423539-e951b9b3871e?q=80&w=680&auto=format"
+  },
+  {
+    "id": 7,
+    "slug": "contorno-de-ojos",
+    "name": "Contorno de Ojos",
+    "category": "Tratamiento",
+    "description": "Cuidado periocular con cafeína al 5%, péptidos tensores y ácido hialurónico.",
+    "price": 8500,
+    "badge": null,
+    "image": "https://images.unsplash.com/photo-1620804587331-effc68d47d7e?q=80&w=735&auto=format"
+  },
+  {
+    "id": 8,
+    "slug": "eau-de-parfum-rosee",
+    "name": "Eau de Parfum Rosée",
+    "category": "Esencias",
+    "description": "Fragancia floral con notas de rosa de Damasco, jazmín y sándalo blanco.",
+    "price": 120000,
+    "stock": 98,
+    "badge": "Edición Limitada",
+    "image": "https://images.unsplash.com/photo-1630573133526-8d090e0269af?w=800&h=1000&fit=crop&auto=format"
+  },
+  {
+    "id": 9,
+    "slug": "eau-de-parfum-rosee",
+    "name": "Eau de Parfum Rosée",
+    "category": "Esencias",
+    "description": "Fragancia floral con notas de rosa de Damasco, jazmín y sándalo blanco.",
+    "price": 120000,
+    "stock": 98,
+    "badge": "Edición Limitada",
+    "image": "https://images.unsplash.com/photo-1785581778868-79100f7fe56c?w=800&h=1000&fit=crop&auto=format"
+  }
+]

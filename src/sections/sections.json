@@ -1,0 +1,17 @@
+{
+  "/productos": {
+    "currentSection": "Productos",
+    "sectionTitle": "Colección completa"
+  },
+  "/productos/:slug": {
+    "currentSection": "Productos"
+  },
+  "/contacto": {
+    "currentSection": "Contacto",
+    "sectionTitle": "Hablemos"
+  },
+  "/carrito-de-compras": {
+    "currentSection": "Carrito de compras",
+    "sectionTitle": "Carrito de compras"
+  }
+}

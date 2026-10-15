@@ -1,0 +1,18 @@
+.section-header {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #E2DAD0;
+    border-top: 1px solid #E2DAD0;
+    .inner-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        .section-title {
+            font-size: 3rem;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+    }
+}

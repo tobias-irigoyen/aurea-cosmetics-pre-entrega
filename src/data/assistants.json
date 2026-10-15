@@ -1,0 +1,5 @@
+[
+    { "name": "Ryan Marks", "role": "CEO", "email": "ryan.marks@aurea.com", "picture": "/img/team/ryan.jpg" },
+    { "name": "Rubén Duarte", "role": "Product Owner", "email": "ruben.duarte@aurea.com", "picture": "/img/team/ruben.jpg" },
+    { "name": "Lisa Rodriguez", "role": "UX/UI Designer", "email": "lisa.rodriguez@aurea.com", "picture": "/img/team/lisa.jpg" }
+]
