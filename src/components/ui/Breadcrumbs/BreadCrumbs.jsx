@@ -1,4 +1,4 @@
-import "./BreadCrumbs.scss";
+import "./Breadcrumbs.scss";
 import { Link } from "react-router-dom";
 const BreadCrumbs = ({
   currentSection,
