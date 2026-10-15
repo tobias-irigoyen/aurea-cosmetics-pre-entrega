@@ -1,5 +1,5 @@
 import "./SectionHeader.scss";
-import BreadCrumbs from '@/components/ui/BreadCrumbs/BreadCrumbs'
+import BreadCrumbs from '@/components/ui/Breadcrumbs/BreadCrumbs'
 
 const SectionHeader = ({
   currentSection,
